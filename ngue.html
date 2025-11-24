@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<title>Page Groupe</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        font-family: "Montserrat", Arial, sans-serif;
+        background: #ffffff;
+    }
+
+    /* Bandeau bleu */
+    .header {
+        background: #5fa4dd;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 26px;
+        border-bottom: 2px solid rgba(0,0,0,0.3);
+    }
+
+    /* Zone blanche avec bordure */
+    .content-area {
+        margin: 0;
+        border: 2px solid #000;
+        height: calc(100vh - 120px);
+        padding: 40px;
+        position: relative;
+    }
+
+    /* Bouton générique */
+    .btn {
+        background: linear-gradient(180deg,#d0d0d0 0,#a7a7a7 100%);
+        color: white;
+        font-size: 24px;
+        padding: 18px 40px;
+        border-radius: 6px;
+        text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+        box-shadow: 6px 6px 0 rgba(0,0,0,0.35);
+        border: none;
+        cursor: pointer;
+    }
+
+    /* Bouton de gauche */
+    .btn-left {
+        position: absolute;
+        left: 40px;
+        top: 40px;
+    }
+
+    /* Bouton centré en bas */
+    .btn-center {
+        position: absolute;
+        bottom: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+</style>
+</head>
+
+<body>
+
+    <div class="header">
+        <div>GROUPE N° 04</div>
+        <div style="margin-top:10px;">Nom du Membre: Ngue Hamilton Freshnel</div>
+    </div>
+
+    <div class="content-area">
+
+        <a href="index.html"><button class="btn btn-center">Retour page principale</button></a>
+
+    </div>
+
+</body>
+</html>
